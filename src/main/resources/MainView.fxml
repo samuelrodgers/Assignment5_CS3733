@@ -29,7 +29,7 @@
          <TextField fx:id="textInputBox" maxWidth="-Infinity" minWidth="-Infinity" onInputMethodTextChanged="#onTextUpdate" onKeyReleased="#onTextUpdate" prefWidth="400.0" BorderPane.alignment="CENTER" />
       </center>
       <bottom>
-         <Button mnemonicParsing="false" onAction="#updateOutput" text="Encode!" BorderPane.alignment="CENTER" />
+         <Button mnemonicParsing="false" onKeyReleased="#updateOutput" text="Encode!" BorderPane.alignment="CENTER" />
       </bottom>
    </BorderPane>
    <Separator prefHeight="10.0" prefWidth="200.0" />
