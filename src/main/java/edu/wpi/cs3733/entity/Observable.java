@@ -11,8 +11,11 @@ public interface Observable {
 	 */
 	void register(Observer o);
 
+
 	/**
 	 * Notify observers of change
 	 */
 	void notifyObservers();
+
+
 }
