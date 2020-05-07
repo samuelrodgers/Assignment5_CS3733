@@ -31,6 +31,7 @@ public class CipherController {
 		/*
 		 * You may add additional code here if it relates to your observer pattern implementation.
 		 */
+		textInputBox.
 
 	}
 
